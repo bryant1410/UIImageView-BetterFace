@@ -9,7 +9,7 @@ Last update in v0.2_stable : add a UIImage+BetterFace category, so clipping imag
 
 Looking for an Android version? Check this! [https://github.com/beartung/tclip-android]
 
-##Why?
+## Why?
 
  - Have problems showing the resized image previews?
  - People in the preview only have chins but not faces?
@@ -21,7 +21,7 @@ Like this:
 
 ![preview](https://raw.github.com/croath/UIImageView-BetterFace/master/doc/preview.png)
 
-##How?
+## How?
 
  1. Drag `UIImageView+BetterFace.h` and `UIImageView+BetterFace.m` to your project
  2. Add CoreImage.framework to your project
@@ -31,24 +31,24 @@ Like this:
  6. Done
  7. Still have problems? clone the project and see the demo.
 
-##Too slow?
+## Too slow?
 
 try set the `fast` property to `YES` to get the faster speed(lower accuracy)
 
-##Known issues
+## Known issues
 
  - ~~it will be slow to render large-size images, and showing the strange animation~~
  - ~~it may take a lot of memory while reusing the UIImageView~~
 
-##Who use BetterFace?
+## Who use BetterFace?
 
  - App of http://getprix.com
 
 If you're building your applications using UIImageView-BetterFace, please let me know! (add your application name & App Store link here and pullreuqest this README~
 
-##Debugging
+## Debugging
 Add `BF_DEBUG` to your pre compile macros or `#define BF_DEBUG` to your `prefix.pch` file in order to see turn ON debugging logs on the console.
 
-##Other
+## Other
 
 Any issue and pull request is welcome.
